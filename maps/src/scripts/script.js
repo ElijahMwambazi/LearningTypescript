@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const User_1 = require("./User");
+const Company_1 = require("./Company");
+const Map_1 = require("./Map");
+const user = new User_1.User();
+const company = new Company_1.Company();
+const map = new Map_1.Map({ divId: "map" });
+map.addMarker(user);
+map.addMarker(company);
