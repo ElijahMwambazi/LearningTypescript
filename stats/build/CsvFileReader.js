@@ -16,8 +16,8 @@ class CsvFileReader {
             encoding: "utf-8",
         })
             .split("\n")
-            .map(function (str) {
-            return str.split(",");
+            .map(function (row) {
+            return row.split(",");
         });
     }
 }
