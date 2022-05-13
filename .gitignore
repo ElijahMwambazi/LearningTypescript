@@ -1,4 +1,5 @@
 .vscode
+stats/build
 fetchjson/node_modules
 fetchjson/package.json
 fetchjson/package-lock.json
