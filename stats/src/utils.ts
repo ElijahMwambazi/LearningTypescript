@@ -1,4 +1,4 @@
-export const dateStrintToDate = function (dateString: string): Date {
+export const dateStringToDate = function (dateString: string): Date {
     const date = dateString.split("/").map(function (str: string): number {
         return parseInt(str);
     });
