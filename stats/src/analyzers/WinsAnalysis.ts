@@ -1,5 +1,5 @@
 import { Analyzer } from "../Summary";
-import { MatchData } from "../utils";
+import { MatchData } from "../MatchData";
 import { MatchResult } from "../MatchResult";
 
 export class WinsAnalysis implements Analyzer {
@@ -16,6 +16,6 @@ export class WinsAnalysis implements Analyzer {
       }
     }
 
-    return `${this.teamName} won ${wins} ${(wins > 1) ? "games" : "game"}`
+    return `${this.teamName} won ${wins} ${(wins > 1 || wins === 0) ? "games" : "game"}`
   }
 }
