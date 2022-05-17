@@ -6,3 +6,4 @@ fetchjson/package-lock.json
 stats/node_modules
 stats/package.json
 stats/package-lock.json
+.parcel-cache/
