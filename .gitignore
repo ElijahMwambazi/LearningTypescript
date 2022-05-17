@@ -7,3 +7,4 @@ stats/node_modules
 stats/package.json
 stats/package-lock.json
 .parcel-cache/
+wed/dist
