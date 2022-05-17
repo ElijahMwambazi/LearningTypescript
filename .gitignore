@@ -2,13 +2,10 @@
 stats/build
 fetchjson/node_modules
 fetchjson/package.json
-fetchjson/package-lock.json
 stats/node_modules
 stats/package.json
-stats/package-lock.json
 .parcel-cache/
 web/dist
 web/dist/
 web/node_modules
 web/package.json
-web/package-lock.json
