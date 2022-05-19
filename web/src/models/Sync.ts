@@ -7,20 +7,20 @@ interface HasId {
 export class Sync<T extends HasId> {
   constructor(public rootUrl: string) {}
 
-  // Fetch user data
+  // Fetch data
   fetch(id: number): AxiosPromise {
     return axios.get(`${this.rootUrl}/${id}`);
   }
 
-  // Save user data
+  // Save data
   save(data: T): AxiosPromise {
     const { id } = data;
 
     if (id) {
-      // Update user data
+      // Update data
       return axios.put(`${this.rootUrl}/${id}`, data);
     } else {
-      // Create new user
+      // Create new
       return axios.post(this.rootUrl, data);
     }
   }
