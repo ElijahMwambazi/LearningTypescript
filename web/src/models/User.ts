@@ -6,8 +6,7 @@ import { Collection } from "./Collection";
 
 export interface UserProps {
   id?: number;
-  firstName?: string;
-  lastName?: string;
+  name?: string;
   age?: number;
 }
 
