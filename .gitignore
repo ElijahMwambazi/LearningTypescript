@@ -9,3 +9,5 @@ web/dist
 web/dist/
 web/node_modules
 web/package.json
+server/node_modules
+server/build
